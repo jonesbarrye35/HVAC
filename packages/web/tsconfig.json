@@ -20,7 +20,12 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "paths": {
+      "@hvac/shared": [
+        "../shared/src"
+      ]
+    }
   },
   "include": [
     "next-env.d.ts",
