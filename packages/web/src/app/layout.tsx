@@ -1,4 +1,4 @@
-import './globals.css';
+import '../styles/globals.css';
 import { LayoutDashboard, Calendar, Users, ClipboardList, Package, Settings, LogOut, Wrench, TrendingUp } from 'lucide-react';
 import Link from 'next/link';
 
