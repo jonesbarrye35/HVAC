@@ -1,0 +1,12 @@
+{
+  "name": "hvac-field-service",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "web:dev": "npm run dev -w packages/web",
+    "mobile:dev": "npm run start -w packages/mobile",
+    "db:types": "supabase gen types typescript --project-id yrfgnqhvwpxsduxckuff > packages/shared/src/database.types.ts"
+  }
+}
