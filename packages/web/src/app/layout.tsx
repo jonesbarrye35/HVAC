@@ -1,6 +1,7 @@
 import '../styles/globals.css';
 import { LayoutDashboard, Calendar, Users, ClipboardList, Package, Settings, LogOut, Wrench, TrendingUp } from 'lucide-react';
 import Link from 'next/link';
+import { Analytics } from '@vercel/analytics/next';
 
 export const metadata = {
     title: 'HVAC Pro | Owner Dashboard',
@@ -65,6 +66,7 @@ export default function RootLayout({
                         {children}
                     </main>
                 </div>
+                <Analytics />
             </body>
         </html>
     );

@@ -48,7 +48,7 @@ export default function DashboardPage() {
 
             <section style={{ display: 'grid', gridTemplateColumns: '2fr 1fr', gap: '1.5rem' }}>
                 <div className="card">
-                    <h2 style={{ marginBottom: '1rem', fontSize: '1.25rem' }}>Today's Schedule</h2>
+                    <h2 style={{ marginBottom: '1rem', fontSize: '1.25rem' }}>Today&apos;s Schedule</h2>
                     <div className="calendar-grid">
                         {/* Simple skeleton for schedule */}
                         {['Time', 'Job', 'Technician', 'Status'].map(h => (
